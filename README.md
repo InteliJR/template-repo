@@ -1,30 +1,97 @@
-# template-repo
-emplate oficial da Inteli Junior para padronização de repositórios, com estrutura de diretórios, templates de contribuição, documentação com Docusaurus e configurações iniciais de CI e branches.
+# 📘 Nome do Projeto
 
-## Autores
+<!--
+Breve descrição do projeto, incluindo o objetivo, nome do cliente e o setor envolvido.
+-->
 
-Conheça os autores deste projeto:
+Exemplo: _Aplicação web para gestão de processos internos da Empresa X, no setor de logística._
 
-- **Autor 1**  
-  <span style="display: inline-block; margin-right: 10px;">
-    [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">](https://github.com/)
-  </span>
-  <span style="display: inline-block;">
-    [<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">](https://www.linkedin.com/)
-  </span>
+Acesse a solução por meio deste [🔗 Link](https://www.nasa.gov/)
 
-- **Autor 2**  
-  <span style="display: inline-block; margin-right: 10px;">
-    [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">](https://github.com/)
-  </span>
-  <span style="display: inline-block;">
-    [<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">](https://www.linkedin.com/)
-  </span>
+---
 
-- **Autor 3**  
-  <span style="display: inline-block; margin-right: 10px;">
-    [<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">](https://github.com/)
-  </span>
-  <span style="display: inline-block;">
-    [<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">](https://www.linkedin.com/)
-  </span>
+## 📄 Documentação
+
+A documentação completa do projeto pode ser acessada através do link abaixo:  
+
+> A documentação é mantida utilizando o [Docusaurus](https://docusaurus.io/).
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+<!-- Liste aqui as principais tecnologias utilizadas no projeto.  -->
+
+
+- React
+- Node.js
+- PostgreSQL
+- Figma
+- TailwindCSS
+
+---
+
+## 🛠️ Como Rodar o Projeto
+
+<!-- Passos para rodar o projeto.   -->
+Exemplo:
+
+```bash
+# Clone o repositório
+git clone https://github.com/inteli-junior/nomedoprojeto.git
+
+# Acesse o diretório do projeto
+cd nomedoprojeto
+
+# Instale as dependências do backend
+cd backend
+npm install
+
+# Inicie o servidor backend
+npm run dev
+
+# Em outro terminal, vá para o frontend
+cd ../frontend
+npm install
+npm run dev
+```
+
+---
+
+## 🗂️ Estrutura de Diretórios
+
+```bash
+.
+├── .github/                       # Configurações de CI/CD e templates de PR
+│
+├── backend/                       # Código backend (Node.js, Python, etc)
+│
+├── frontend/                      # Código frontend (React, Next.js, etc)
+│
+├── docs/                          # Documentação Docusaurus
+│   ├── docs/
+│   │   ├── visao-produto.md       # Documento elaborado pela área de Visão de Produto
+│   │   ├── design.md              # Documento elaborado pela área de Design
+│   │   ├── desenvolvimento.md     # Documento elaborado pela área de Desenvolvimento
+│
+├── .gitignore                     # Arquivos ignorados pelo Git
+└── README.md                      # Este documento
+```
+
+---
+
+## 👥 Time do Projeto
+
+Conheça quem participou do desenvolvimento deste projeto:
+
+- **Nome da Pessoa 1**  
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/usuario1)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/usuario1)
+
+- **Nome da Pessoa 2**  
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/usuario2)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/usuario2)
+
+- **Nome da Pessoa 3**  
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/usuario3)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/usuario3)
