@@ -2,46 +2,81 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Início
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Documentação da Área de Projetos
 
-## Getting Started
+Bem-vindo à documentação oficial da Área de Projetos da nossa Empresa Júnior!  
+Aqui você encontrará os documentos operacionais que sustentam o fluxo de trabalho entre as diferentes subáreas: **Visão de Produto**, **Design** e **Desenvolvimento**.
 
-Get started by **creating a new site**.
+Esta documentação tem como objetivo padronizar os entregáveis, facilitar a transição entre etapas e garantir que todos os projetos mantenham alta qualidade, clareza de escopo e alinhamento com as expectativas dos clientes.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Todos os arquivos seguem o formato Markdown, permitindo fácil versionamento, integração com ferramentas como Git e uso por agentes de IA em tarefas de automação, revisão, análise e integração nesta estrutura Docusaurus.
 
-### What you'll need
+---
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 📄 Visão de Produto
 
-## Generate a new site
+🔗 [Acessar documento de Visão de Produto](./visao-produto.md)
 
-Generate a new Docusaurus site using the **classic template**.
+O documento da **Visão de Produto** é o ponto de partida de todo projeto. Ele é preenchido pela PO responsável por compreender as necessidades do cliente, traduzindo essas necessidades em escopos claros, requisitos técnicos e expectativas bem definidas. É o documento que conecta a estratégia com a execução.
 
-The classic template will automatically be added to your project after you run the command:
+**Principais elementos incluídos:**
+- Checklist de entrada e saída da área
+- Datas de entrada e saída previstas para cada área
+- Matriz “é / não é / faz / não faz”
+- Matriz de Certezas, Suposições e Dúvidas
+- Epics e user stories
+- Requisitos funcionais
+- Considerações sobre responsividade
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+> Este documento deve estar 100% validado com o cliente antes que o projeto avance para a etapa de Design.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+---
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## 🎨 Design
 
-## Start your site
+🔗 [Acessar documento da área de Design](./design.md)
 
-Run the development server:
+O documento de **Design** consolida todas as decisões visuais tomadas durante o projeto. A equipe de design, com base na visão de produto, desenvolve a identidade visual e as interfaces do projeto, documentando cada componente visual de forma clara.
 
-```bash
-cd my-website
-npm run start
-```
+**Principais elementos incluídos:**
+- Fontes e tamanhos tipográficos
+- Paleta de cores
+- Estilo de ícones
+- Wireframes e protótipos navegáveis ou imagens estáticas
+- Checklist de entrada e saída da área
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+> Este documento deve ser validado com o cliente antes do início do Desenvolvimento, garantindo que não haja dúvidas quanto à identidade visual.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+---
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## 💻 Desenvolvimento
+
+🔗 [Acessar documento da área de Desenvolvimento](./desenvolvimento.md)
+
+O documento de **Desenvolvimento** registra as decisões técnicas, tecnologias utilizadas e a estrutura lógica dos sistemas desenvolvidos. Ele parte das definições anteriores (Visão de Produto + Design) e prepara o terreno para a implementação eficiente e organizada.
+
+**Principais elementos incluídos:**
+- Tecnologias escolhidas (frontend, backend, banco de dados, etc.)
+- Custos de manutenção (servidores, domínio, hospedagem, etc.)
+- Modelo lógico do banco de dados (se aplicável)
+- Alinhamento entre frontend e backend quanto à estrutura de dados
+- Checklist de entrada e saída da área
+
+> Este documento garante que a implementação ocorra com base sólida e evita retrabalho decorrente de decisões mal comunicadas ou improvisadas.
+
+---
+
+## 🧭 Navegação e uso
+
+Esses documentos são usados em todos os projetos da área, servindo como marcos de transição entre as etapas. Sempre que um projeto entrar em uma nova área, o documento correspondente deve ser iniciado. Ao ser validado e finalizado, ele sinaliza que o projeto está pronto para avançar.
+
+Quando possível, os conteúdos destes arquivos também podem ser replicados dentro do repositório específico de cada projeto, garantindo rastreabilidade e acessibilidade.
+
+---
+
+Se você está participando de um projeto, certifique-se de estar familiarizado com os documentos e utilizar os modelos corretos durante cada fase.
+
+> Para mais informações sobre o funcionamento geral da área de projetos, consulte a [documentação de reestruturação organizacional da área](https://docs.google.com/document/d/1Sot0V98EBWKO2TeUhFDBzjCmca8TnsJDkCPgRgE-yU0/edit?usp=sharing).
+
