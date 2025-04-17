@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 📄 Visão de Produto
@@ -142,7 +142,7 @@ Essa matriz é útil para orientar as conversas com o cliente, levantar riscos, 
 - **Objetivo:** Quero reservar uma sala de estudo
 - **Justificativa:** Para garantir que terei um espaço disponível no horário desejado
 
-<br>
+<br/>
 
 #### US2
 - **Usuário:** Como um professor

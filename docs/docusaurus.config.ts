@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "NovoProjeto Docs",
-  tagline: "Documentação técnica do projeto NovoProjeto",
+  tagline: "Documentação do projeto NovoProjeto",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -20,6 +20,7 @@ const config: Config = {
   organizationName: "InteliJR", // Usually your GitHub org/user name.
   projectName: "NovoProjeto", // Usually your repo name.
   trailingSlash: false,
+
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
@@ -36,12 +37,12 @@ const config: Config = {
       "classic",
       {
         docs: {
-          routeBasePath: "/",
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: "./sidebars.ts",
+          // Please change this to your repo.
         },
         blog: false,
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -49,8 +50,8 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-
     navbar: {
+      title: "Início",
       items: [
         {
           type: "docSidebar",
@@ -58,18 +59,12 @@ const config: Config = {
           position: "left",
           label: "Documentação",
         },
-        {
-          href: "https://github.com/InteliJR/NovoProjeto",
-          label: "GitHub",
-          position: "right",
-        },
       ],
     },
-
     footer: {
       style: "dark",
 
-      copyright: `Copyright © ${new Date().getFullYear()} NovoProjeto. Feito com Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} NovoProjeto, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

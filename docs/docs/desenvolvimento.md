@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# 📄 Desenvolvimento
+# 💻 Desenvolvimento
 
 <!-- Este documento deve ser preenchido pela equipe de Desenvolvimento ao iniciar um projeto. -->
 
@@ -94,7 +94,7 @@ sidebar_position: 3
 **Link para o modelo:** 
 <!-- Exemplo: https://dbdiagram.io/xyz -->
 
-Perfeito! Aqui vai uma versão melhorada e mais didática da seção **"Estrutura de Dados (Frontend <-> Backend)"**, com uma explicação clara sobre a importância dos contratos, exemplos de **interfaces** que funcionam como contratos e também um exemplo de como esses contratos se transformam em dados reais durante o desenvolvimento e testes.
+Perfeito! Aqui vai uma versão melhorada e mais didática da seção **"Estrutura de Dados (Frontend < > Backend)"**, com uma explicação clara sobre a importância dos contratos, exemplos de **interfaces** que funcionam como contratos e também um exemplo de como esses contratos se transformam em dados reais durante o desenvolvimento e testes.
 
 ---
 
