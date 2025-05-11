@@ -51,6 +51,23 @@ O documento de **Design** consolida todas as decisões visuais tomadas durante o
 
 ---
 
+## ⚙️ Tecnologias
+
+🔗 [Acessar documento da área de Tecnologias](./tecnologias.md)
+
+O documento de **Tecnologias** centraliza as decisões técnicas e o planejamento da arquitetura do projeto. Ele é elaborado pelo Tech Lead, com base na visão de produto validada, e serve como ponte entre o planejamento técnico e a execução pelo time de desenvolvimento.
+
+**Principais elementos incluídos:**
+- Stack tecnológica e justificativas
+- Arquitetura lógica e de implantação
+- Considerações de segurança
+- Ambientes de desenvolvimento e produção
+- Checklist de entrada e saída da área
+
+> Este documento deve estar validado com o time técnico antes do início da fase de desenvolvimento, garantindo que a implementação ocorra com base sólida e segura.
+
+---
+
 ## 💻 Desenvolvimento
 
 🔗 [Acessar documento da área de Desenvolvimento](./desenvolvimento.md)
