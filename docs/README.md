@@ -26,8 +26,6 @@ Para configurar a documentação em um novo repositório, siga os passos abaixo:
        tagline: "Descrição do projeto",      // Exemplo: "Sistema de Gestão"
        baseUrl: "/NOME_DO_REPOSITORIO/",     // Exemplo: "/sistema-gestao/"
        projectName: "NOME_DO_REPOSITORIO",   // Exemplo: "sistema-gestao"
-       url: "https://ORGANIZACAO.github.io", // Exemplo: "https://InteliJR.github.io"
-       organizationName: "ORGANIZACAO",      // Exemplo: "InteliJR"
      }
      ```
    - Substitua `NOME_DO_PROJETO`, `NOME_DO_REPOSITORIO` e `ORGANIZACAO` pelos valores correspondentes ao seu projeto
