@@ -5,20 +5,17 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
+  // Ajustar com o nome do projeto
   title: "NovoProjeto Docs",
+  baseUrl: "/template-repo/",
+  projectName: "template-repo",
   tagline: "Documentação do projeto NovoProjeto",
-  favicon: "img/favicon.ico",
 
+
+  favicon: "img/favicon.ico",
   // Set the production url of your site here
   url: "https://InteliJR.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/NovoProjeto/",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "InteliJR", // Usually your GitHub org/user name.
-  projectName: "NovoProjeto", // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: "throw",
